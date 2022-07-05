@@ -1,8 +1,8 @@
 function game() {
-  var a = Math.floor(Math.random() * 6 + 1);
-  var b = Math.floor(Math.random() * 6 + 1);
-  var randomdie1 = ("images/dice" + a + ".png");
-  var randomdie2 = ("images/dice" + b + ".png");
+  let a = Math.floor(Math.random() * 6 + 1);
+  let b = Math.floor(Math.random() * 6 + 1);
+  const randomdie1 = ("images/dice" + a + ".png");
+  const randomdie2 = ("images/dice" + b + ".png");
   document.querySelector(".img1").setAttribute("src", randomdie1);
   document.querySelector(".img2").setAttribute("src", randomdie2);
 
