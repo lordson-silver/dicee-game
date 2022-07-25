@@ -34,3 +34,8 @@ This project includes:
 
 ## Want to contribute? 
 _Feel free to do so._
+
+### License
+MIT License
+
+(c) Lordson Silver 
